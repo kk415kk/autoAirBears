@@ -1,4 +1,4 @@
-Pretty JSON
+Auto Airbears
 ===
 
-First Chrome extension developed while finding a need to have a faster way to parse JSON outputs from API calls. 
+A Chrome extension developed to automate login for Berkeley's Calnet auth system
