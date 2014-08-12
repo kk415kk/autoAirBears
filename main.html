@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Auto Airbears</title> 
+
+    <!-- STYLESHEETS -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+    <!-- SCRIPTS -->
+    <script src="js/main.js" type="text/javascript"></script> 
+
+  </head> 
+  <body>
+    <div class="page-wrap">
+    <h1 class="center">Auto Airbears { }</h1>
+      <p>Login:</p>
+      <form name="json_form" action="#"class="form-group" method="POST" onsubmit="saveCredentials();">
+        <input type="text" id="calUsername" name="username" placeholder="username">
+        <input type="password" id="calPassword" name="password" placeholder="password">
+        <br>
+        <input class="btn" type="submit" value="Save">
+      </form>
+    </div>
+    <br>
+    <br>
+    <footer>
+      <p>&copy; 2014 Kevin Kao.</p>
+      <p>Built with HTML, JavaScript, and a little bit of motivation.</p>
+    </footer> 
+  </body>
+
+  <script type="text/javascript">
+  function saveCredentials() {
+    var username = document.getElementById(calUsername);
+    var password = document.getElementById(calPassword);
+  }
+
+  // Add a listener to check window URL
+  function authenticate () {
+  }
+  </script>
+</html>
